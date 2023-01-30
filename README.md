@@ -3,7 +3,7 @@ Homepage
 
 This repository gives the code for my online homepage. You can visit at:
 
-[yan-holtz.com](https://www.yan-holtz.com)
+[imranabulibda.tech](https://www.imranabulibda.tech)
 
 Note that by blog is linked to this, available at:
 
