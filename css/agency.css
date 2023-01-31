@@ -7,8 +7,17 @@ body {
 
 p {
   line-height: 1.75;
-  display: block;
+  display: inline;
 }
+
+@media only screen and (max-width: 480px) {
+   p {
+      line-height: 1.75;
+      display: block;
+  }
+}
+
+
 
 a {
   color: #69b3a2;
