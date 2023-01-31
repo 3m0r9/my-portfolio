@@ -1063,7 +1063,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     .textlanding {
       color: black;
       position: absolute;
-      top: 65%;
+      top: 50%;
       right: 50%;
       transform: translate(50%,-50%);
       padding: 2em 3em;
