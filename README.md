@@ -7,6 +7,6 @@ This repository gives the code for my online homepage. You can visit at:
 
 Note that by blog is linked to this, available at:
 
-[yan-holtz.com/blog](https://www.yan-holtz.com/blog)
+[imranabulibda.tech/blog](https://www.imranabulibda.tech/blog)
 
 
