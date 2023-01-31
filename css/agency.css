@@ -1083,4 +1083,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   transform: translate(50%,-50%);
   max-width: 600px;
   padding: 2em 3em;
+  display: inline-grid;
+  align-content: center;
+  justify-items: center;
+  align-items: center;	
 }
