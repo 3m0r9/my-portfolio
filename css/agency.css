@@ -155,6 +155,7 @@ img::-moz-selection {
 
 #mainNav {
   background-color: white;
+  position: absolute;
 }
 
 #mainNav .navbar-toggler {
