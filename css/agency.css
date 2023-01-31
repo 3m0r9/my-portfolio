@@ -1004,10 +1004,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .carousel-control-prev {
-    left: -121px;
+    left: 0px;
+    align-items: flex-start;
 }
 .carousel-control-next {
-    right: -121px;
+    right: 0px;
+    align-items: flex-start;
 }
 
 .mytextrelated {
