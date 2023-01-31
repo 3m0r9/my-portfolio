@@ -1,7 +1,8 @@
 
 /* ---------- General ----------------- */
 body {
-  overflow-x: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
