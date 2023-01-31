@@ -1137,7 +1137,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     margin: 0;
     padding: 0;
     overflow: scroll;
-    
+    overflow-x: hidden;
+
       } 
  
     .textlanding {
