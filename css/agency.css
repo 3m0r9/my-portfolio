@@ -7,7 +7,7 @@ body {
 
 p {
   line-height: 1.75;
-  display: inline;
+  display: block;
 }
 
 a {
@@ -90,7 +90,7 @@ u {
      font-size: 18px;
      padding: 20px 40px;
      margin: 3px;
-     margin-top: 80px;
+     margin-top: 20px;
  }
 
 @media only screen and (max-width: 480px) {
