@@ -1,7 +1,7 @@
 
 /* ---------- General ----------------- */
 body {
-  overflow-x: hidden;
+  overflow-x: scroll;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -1117,7 +1117,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: scroll;
     
       } 
  
