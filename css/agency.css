@@ -1067,7 +1067,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
       position: absolute;
       top: 65%;
       width: 350px;
-      right: 50%;
+      right: 55%;
       transform: translate(50%,-50%);
       padding: 1em 2em;
       display: inline-grid;
