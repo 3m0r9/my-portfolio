@@ -7,18 +7,7 @@ body {
 
 p {
   line-height: 1.75;
-  display: -webkit-inline-box;
-
 }
-
-@media only screen and (max-width: 480px) {
-   p {
-      line-height: 1.75;
-      display: block;
-  }
-}
-
-
 
 a {
   color: #69b3a2;
@@ -63,6 +52,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
+    padding: 150px 0;
   }
 }
 
@@ -95,21 +85,10 @@ u {
   font-weight: 500;
 }
 
-   .btn-xl {
-     font-size: 18px;
-     padding: 20px 40px;
-     margin: 3px;
-     margin-top: 20px;
- }
-
-@media only screen and (max-width: 480px) {
-
-   .btn-xl {
-     font-size: 18px;
-     padding: 5px 20px;
-     margin: 3px;
-
- }
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+  margin: 3px;
 }
 
 .btn-primary {
@@ -175,7 +154,6 @@ img::-moz-selection {
 
 #mainNav {
   background-color: white;
-  position: absolute;
 }
 
 #mainNav .navbar-toggler {
@@ -190,30 +168,6 @@ img::-moz-selection {
 }
 
 
-
-
-
-@media only screen and (max-width: 480px) {
-    .html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: scroll;
-    
-      } 
-  
-#mainNav .navbar-toggler {
-           font-size: 12px;
-           right: 0;
-           padding: 13px;
-           text-transform: uppercase;
-           color: white;
-           border: 0;
-           background-color: #69b3a2;
-           font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-}  
 
 
 
@@ -289,28 +243,9 @@ img::-moz-selection {
   overflow: hidden;
 }
 
-
-
-
-
-/*@media only screen and (max-width: 480px) { 
-.masthead {
-  text-align: center;
-  color: black;
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 100px;
-  }
-}
-*/
-
-
-
-
-
 .parallax {
-    /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
-    background-image: url("../img/overview_RGG_faded.png");
+    /* The image used (faded with convert overview_RGG.webp  -fill white -colorize 50%  overview_RGG_faded.webp*/
+    background-image: url("../img/overview_RGG_faded.webp");
 
     /* Set a specific height */
     min-height: 100px;
@@ -323,8 +258,8 @@ img::-moz-selection {
 }
 
 .parallaxwebsite {
-    /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
-    background-image: url("../img/parallax/poster_zoom_fadded.png");
+    /* The image used (faded with convert overview_RGG.webp  -fill white -colorize 50%  overview_RGG_faded.webp*/
+    background-image: url("../img/parallax/poster_zoom_fadded.webp");
 
     /* Set a specific height */
     min-height: 500px;
@@ -337,8 +272,8 @@ img::-moz-selection {
 }
 
 .parallaxcontact {
-    /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
-    background-image: url("../img/parallax/surf_fading.png");
+    /* The image used (faded with convert overview_RGG.webp  -fill white -colorize 50%  overview_RGG_faded.webp*/
+    background-image: url("../img/parallax/surf_fading.webp");
 
     /* Set a specific height */
     min-height: 500px;
@@ -353,8 +288,8 @@ img::-moz-selection {
 
 
 .parallaxposter {
-    /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
-    background-image: url("../img/parallax/poster_zoom_fadded.png");
+    /* The image used (faded with convert overview_RGG.webp  -fill white -colorize 50%  overview_RGG_faded.webp*/
+    background-image: url("../img/parallax/poster_zoom_fadded.webp");
 
     /* Set a specific height */
     min-height: 500px;
@@ -419,41 +354,6 @@ header.masthead .intro-text .intro-heading {
 }
 
 
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 480px) {
-  header.masthead .intro-text {
-    padding-top: 100px;
-    padding-bottom: 200px;
-  }
-  header.masthead .intro-text .intro-lead-in {
-    font-size: 16px;
-    font-style: italic;
-    color: grey;
-    line-height: 40px;
-    margin-bottom: 25px;
-    margin-right: 20%;
-    margin-left: 20%;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-  header.masthead .intro-text .intro-heading {
-    font-size: 75px;
-    font-weight: 700;
-    line-height: 75px;
-    margin-bottom: 50px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-}
-
-.service-heading {
-  margin: 15px 0;
-}
 
 
 
@@ -749,7 +649,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/map-image.webp");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -827,7 +727,7 @@ footer ul.quicklinks {
 }
 
 ul.social-buttons {
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 ul.social-buttons li a {
@@ -1023,32 +923,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-
-
 .carousel-control-prev {
     left: -121px;
-    
 }
 .carousel-control-next {
     right: -121px;
-    
 }
-
-
-
-@media only screen and (max-width: 480px) {
-   .carousel-control-prev {
-     left: 0px;
-     align-items: flex-start;
- }
-   .carousel-control-next {
-     right: 0px;
-     align-items: flex-start;
- }
-}
-
-
-
 
 .mytextrelated {
   text-transform: none;
@@ -1157,6 +1037,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /* LANDING PAGE
 /* ------------------------------------------------------------------------------------------------------------------- */
 
+
 .textlanding {
   color: black;
   position: absolute;
@@ -1164,47 +1045,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   right: 50%;
   transform: translate(50%,-50%);
   max-width: 600px;
-  padding: 2em 1em;;
+  padding: 2em 3em;
 }
-
-
- .html,body {
-   width: 100%;
-   height: 100%;
-   margin: 0;
-   padding: 0;
-   overflow-x: hidden;
-
-      } 
-
-
-@media only screen and (max-width: 480px) {
-    .html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-
-      } 
- 
-    .textlanding {
-      color: black;
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      width: 350px;
-      transform: translate(50%,-50%);
-      padding: 1em 2em;
-      display: inline-grid;
-      align-content: center;
-      justify-items: center;
-      align-items: center;
-  }
-}  
-
-
-
 .arrowlanding {
   color: black;
   position: absolute;
@@ -1213,8 +1055,4 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   transform: translate(50%,-50%);
   max-width: 600px;
   padding: 2em 3em;
-  display: inline-grid;
-  align-content: center;
-  justify-items: center;
-  align-items: center;	
 }
