@@ -289,6 +289,25 @@ img::-moz-selection {
   overflow: hidden;
 }
 
+
+
+
+
+@media only screen and (max-width: 480px) { 
+.masthead {
+  text-align: center;
+  color: black;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100px;
+  }
+}
+
+
+
+
+
+
 .parallax {
     /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
     background-image: url("../img/overview_RGG_faded.png");
